@@ -1,10 +1,48 @@
-
-# Node
+# =========================
+# Node / Package Managers
+# =========================
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# Electron builds
+# =========================
+# Electron
+# =========================
 dist/
 out/
+release/
+*.app
+*.exe
+*.dmg
+*.deb
+*.rpm
+
+# =========================
+# React / Vite / Build
+# =========================
+build/
+.vite/
+.vite-cache/
+
+# =========================
+# Env & Secrets
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# OS junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE junk
+# =========================
+.vscode/
+.idea/
+*.swp
